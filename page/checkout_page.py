@@ -23,8 +23,5 @@ def checkout_overview(page: Page):
     page.locator(cps.FINISH_BTN).click()
 
 
-BACK_TO_HOME_BTN = "#back-to-products"
-
-
 def checkout_complete(page: Page):
-    page.locator(BACK_TO_HOME_BTN).click()
+    page.locator(cps.BACK_TO_HOME_BTN).click()
