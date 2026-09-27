@@ -1,4 +1,5 @@
 from playwright.sync_api import Page, expect
+
 from selector import inventory_page_selector as ips
 
 
